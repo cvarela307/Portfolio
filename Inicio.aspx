@@ -26,7 +26,7 @@ crossorigin="anonymous">
                 <asp:TextBox ID="TxtCentigrados" runat="server" CssClass="elemento"></asp:TextBox>
                 <asp:Label ID="LblFarenheit" runat="server" Text="Grados Farenheit" CssClass="elemento"></asp:Label>
                 <asp:TextBox ID="TxtFarenheit" runat="server" CssClass="elemento"></asp:TextBox>
-                <asp:Button ID="BtnCalcular" runat="server" Text="Ejecutar" CssClass="elemento1" OnClick="BtnCalcular_Click" />
+                <asp:Button ID="BtnCalcular" runat="server" Text="Calcular cambio" CssClass="elemento1" OnClick="BtnCalcular_Click" />
                 <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" CssClass="elemento1" OnClick="BtnLimpiar_Click" />
              </div>
         </div>
